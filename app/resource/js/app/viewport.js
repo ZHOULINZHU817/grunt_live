@@ -1,0 +1,1 @@
+var calculate_size=function(){var e=100,t=document.documentElement,n=t.clientWidth;n&&(t.style.fontSize=e*(n/375)+"px")};if(document.addEventListener){var resizeEvt="orientationchange"in window?"orientationchange":"resize";window.addEventListener(resizeEvt,calculate_size,!1),document.addEventListener("DOMContentLoaded",calculate_size,!1),calculate_size()}

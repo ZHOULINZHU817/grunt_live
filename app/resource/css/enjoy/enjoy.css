@@ -1,0 +1,33 @@
+html{min-height:100%;}
+body{
+    min-height:100%;
+    font-size:0.12rem;
+    line-hegiht:1;
+}
+.s-main{
+    height:15.6rem;
+    background:url(../../img/enjoy/ebg.jpg) no-repeat;
+    /*background:url(../../img/enjoy/stock_ico1.png) no-repeat;*/
+
+    background-size: 3.75rem auto;
+    position:relative;
+}
+.s-back{
+    position:absolute;
+    background:#eee;
+    width:0.5rem;
+    height:0.3rem;
+    filter: alpha(opacity=0);opacity: 0;
+    left:1.8%;
+    top:1%;
+
+}
+.elink{
+    width:2.3rem;
+    height:0.6rem;
+    position:absolute;
+    background:red;
+    left:0.7rem;
+    top:3rem;
+    filter: alpha(opacity=0);opacity: 0;
+}

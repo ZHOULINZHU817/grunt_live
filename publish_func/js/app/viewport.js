@@ -1,0 +1,2 @@
+/*frame by Ella Liu*/
+var calculate_size=function(){var e=document.documentElement,t=e.clientWidth;t&&(e.style.fontSize=t/375*100+"px")};if(document.addEventListener){var resizeEvt="orientationchange"in window?"orientationchange":"resize";window.addEventListener(resizeEvt,calculate_size,!1),document.addEventListener("DOMContentLoaded",calculate_size,!1),calculate_size()}

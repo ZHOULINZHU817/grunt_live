@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>zx</title>
+</head>
+<body>
+<span>888</span>
+<script src="jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+    $.ajax({
+        type: "GET",
+        url: "http://192.168.20.221/txt/505321648021.txt",
+        error: function (response) {
+            alert('Error: There was a problem processing your request, please refresh the browser and try again');
+        },
+        success: function (response) {
+            console.log(response);
+        }
+    });
+</script>
+</body>
+</html>

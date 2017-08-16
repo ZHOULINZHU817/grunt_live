@@ -1,0 +1,34 @@
+{
+  "name": "grunt_live",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "connect-livereload": "^0.6.0",
+    "grunt": "^1.0.1",
+    "grunt-autoprefixer": "^3.0.4",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-requirejs": "^1.0.0",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-csscomb": "^3.1.1",
+    "grunt-nunjucks": "^0.1.4",
+    "grunt-string-replace": "^1.3.1",
+    "grunt-strip": "^0.2.1",
+    "grunt-text-replace": "^0.4.0",
+    "jpegtran-bin": "^3.2.0",
+    "nunjucks": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
